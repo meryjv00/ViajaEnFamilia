@@ -14,12 +14,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+    <!-- FONT 
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-
 
 
     <!-- CSS
@@ -33,28 +31,62 @@
 
 </head>
 
-<body class="login">
+<body>
 
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container-fluid">
-
+        <!-- HEADER 
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <header>
+            <nav class="row height-1 centrar-vertical rosa-claro">
+                <div id="nav-1" class="four columns">
+                    <span class="menu-logo"><i class="fas fa-save mx-1"></i>A Viajar Familia</span>
+                </div>
+                <div id="nav-2" class="eight columns">
+                    <section id="opciones-menu" class="columna1 mr-1 float-r">
+                        <i id="icono" class="fas fa-bars"></i>
+                        <a href="teRecomendamos1.html"> Te recomendamos </a>
+                        <a href="misItinerarios.html"> Mis itinerarios </a>
+                        <a href="#"> Mi cuenta </a>
+                    </section>
+                </div>
+            </nav>
+            <div class="rosa-claro">
+                <p class="subnav">Itinerario nuevo</p>
+            </div>
+        </header>
         <!-- MAIN 
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <main class="row">
-            <div class="twuelve columns mt-1">
-                <img src="images/logo1.png" class="login">
-                <input id="usuario" type="text" class="width-1" name="nombre" placeholder="Usuario" />
-                <input id="pass" type="password" name="pass" placeholder="Contraseña" />
-                <button id="enviar" class="tick rosa-oscuro"><i class="tickb fas fa-check"></i></button>
-                <button type="button" class="rosa-oscuro letra-blanca" name="Registrarse">Registrarse</button>
+        <main>
+            <div class="row mt-3">
+                <div id="modif" class="modificar five columns">
+                    <input type="text" class="width-100" placeholder="Título del itinerario" />
+                    <p class="bordes">Puntos del itinerario</p>
+                    <div class="row">
+                        <div class="camara two columns">
+                            <i class="cam fas fa-camera"></i>
+                        </div>
+                        <div class="camara2 ten columns">
+                            <i class="fas fa-camera float-l"></i>
+                            <i class="fas fa-trash float-r"></i>
+                            <input type="text" class="width-100" placeholder="Título de este punto" />
+                        </div>
+                    </div>
+                    <textarea name="desc" placeholder="Qué ver y que hacer en este punto del itinerario"></textarea>
+                    <div class="plus">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                </div>
             </div>
         </main>
+
     </div>
     <!---->
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script type="text/javascript" src="js/valida.js"></script>
+
 </body>
 
 </html>
