@@ -2,7 +2,7 @@
 Página web desarrollada con el framework Skeleton que simula el comportamiento mediante JS
 
 ```
-https://app.netlify.com/sites/viaja-en-familia/overview  
+https://viaja-en-familia.netlify.app 
 ```
 
 ## Acceso a la página 🔐
